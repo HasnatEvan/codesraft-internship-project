@@ -51,7 +51,7 @@ const ContactForm = () => {
           variants={fadeInUp}
           className="text-center text-2xl sm:text-4xl font-bold text-gray-800 mb-10"
         >
-          Contact With Me
+          Get in Touch
         </motion.h1>
 
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -70,21 +70,22 @@ const ContactForm = () => {
               viewport={{ once: true }}
             />
 
-            <h2 className="text-xl font-semibold text-gray-800">Nevine Acotanza</h2>
-            <p className="text-sm text-gray-500 mb-4">Chief Operating Officer</p>
+            <h2 className="text-xl font-semibold text-gray-800">CodeSpark IT</h2>
+            <p className="text-sm text-gray-500 mb-4">Digital Solutions Provider</p>
             <p className="text-gray-600 mb-2">
-              I am available for freelance work. Connect with me via and call in to my account.
+              We are open to business inquiries, collaborations, and tech consultations.
+              Reach out to us and our team will get back to you shortly.
             </p>
-            <p className="text-gray-600 text-sm">Phone: (555) 345 678 90</p>
-            <p className="text-gray-600 text-sm mb-4">Email: admin@example.com</p>
+            <p className="text-gray-600 text-sm">Phone: +880 1234 567 890</p>
+            <p className="text-gray-600 text-sm mb-4">Email: contact@codespark.com</p>
 
-            <p className="text-gray-700 text-sm mb-2">FIND WITH ME</p>
+            <p className="text-gray-700 text-sm mb-2">FIND US ON</p>
             <div className="flex flex-wrap gap-4 text-white">
               {[
-                { icon: <FaFacebookF />, link: 'https://facebook.com/yourprofile', color: '#3b5998' },
-                { icon: <FaWhatsapp />, link: 'https://wa.me/155534567890', color: '#25D366' },
-                { icon: <MdEmail />, link: 'mailto:admin@example.com', color: '#EA4335' },
-                { icon: <FaGlobe />, link: 'https://yourportfolio.com', color: '#0A66C2' },
+                { icon: <FaFacebookF />, link: 'https://facebook.com/codespark', color: '#3b5998' },
+                { icon: <FaWhatsapp />, link: 'https://wa.me/8801234567890', color: '#25D366' },
+                { icon: <MdEmail />, link: 'mailto:contact@codespark.com', color: '#EA4335' },
+                { icon: <FaGlobe />, link: 'https://codespark.com', color: '#0A66C2' },
               ].map((item, index) => (
                 <motion.a
                   whileHover={{ scale: 1.1 }}
@@ -108,12 +109,17 @@ const ContactForm = () => {
           <motion.form
             variants={fadeInScale}
             className="bg-gray-50 p-6 sm:p-8 rounded-2xl shadow-lg space-y-4"
+            onSubmit={(e) => {
+              e.preventDefault();
+              alert("Thank you for your message!");
+            }}
           >
             <div className="grid md:grid-cols-2 gap-4">
               <div>
                 <label className="text-xs text-gray-600">Your Name</label>
                 <input
                   type="text"
+                  required
                   className="w-full p-3 border border-gray-300 text-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500"
                 />
               </div>
@@ -121,6 +127,7 @@ const ContactForm = () => {
                 <label className="text-xs text-gray-600">Phone Number</label>
                 <input
                   type="text"
+                  required
                   className="w-full p-3 border border-gray-300 text-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500"
                 />
               </div>
@@ -129,6 +136,7 @@ const ContactForm = () => {
               <label className="text-xs text-gray-600">Email</label>
               <input
                 type="email"
+                required
                 className="w-full p-3 border border-gray-300 text-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500"
               />
             </div>
@@ -136,6 +144,7 @@ const ContactForm = () => {
               <label className="text-xs text-gray-600">Subject</label>
               <input
                 type="text"
+                required
                 className="w-full p-3 border border-gray-300 text-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500"
               />
             </div>
@@ -143,6 +152,7 @@ const ContactForm = () => {
               <label className="text-xs text-gray-600">Your Message</label>
               <textarea
                 rows="6"
+                required
                 className="w-full p-3 border border-gray-300 text-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500"
               ></textarea>
             </div>
@@ -150,7 +160,7 @@ const ContactForm = () => {
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               type="submit"
-              className="w-full py-3 bg-gradient-to-r from-gray-100 to-white rounded-lg text-sm font-medium text-gray-700 shadow hover:shadow-md transition"
+              className="w-full py-3 bg-gradient-to-r from-[#FF014F] to-[#EA6478] rounded-lg text-sm font-medium text-white shadow hover:shadow-md transition"
             >
               SEND MESSAGE
             </motion.button>

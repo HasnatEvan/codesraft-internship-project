@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Top 5 Frontend Frameworks in 2025",
+    "slug": "top-5-frontend-frameworks-2025",
+    "category": "Development",
+    "date": "2025-06-01",
+    "excerpt": "Explore the most popular frontend frameworks of 2025 and why you should consider using them.",
+    "description": "Frontend development is evolving at a rapid pace, and in 2025, developers have a wide variety of tools to choose from. This blog explores React.js with its advanced concurrent features and strong ecosystem; Vue 3, known for the Composition API and simplicity; Svelte, which compiles into highly performant JavaScript; Angular, a complete platform for enterprise apps; and Solid.js, gaining attention for its fine-grained reactivity model. The post also compares these frameworks in terms of learning curve, performance benchmarks, documentation quality, community support, and real-world usage examples.",
+    "image": "/blog/frontend.jpg"
+  },
+  {
+    "id": 2,
+    "title": "The Future of UI/UX Design",
+    "slug": "future-of-uiux-design",
+    "category": "Design",
+    "date": "2025-05-20",
+    "excerpt": "Discover emerging trends in UI/UX design and what designers need to focus on today.",
+    "description": "UI/UX design in 2025 is being redefined by technologies such as AR, VR, AI, and voice interfaces. This article explores how immersive experiences, hyper-personalization through AI, and inclusive design are reshaping digital products. We also discuss trends like dark mode standardization, micro-interactions, motion design, and the increasing importance of ethical design practices. Designers are encouraged to embrace cross-platform systems, build with accessibility in mind, and create interfaces that adapt in real time to user behavior.",
+    "image": "/blog/uiux.jpg"
+  },
+  {
+    "id": 3,
+    "title": "7 Strategies for SEO-Friendly Websites",
+    "slug": "seo-friendly-websites",
+    "category": "SEO",
+    "date": "2025-05-15",
+    "excerpt": "Learn effective techniques to improve your website’s ranking on Google and other search engines.",
+    "description": "Search engine optimization in 2025 requires a blend of technical excellence, content strategy, and user-centric design. This article outlines seven proven strategies, including implementing structured data and schema markup, optimizing for Core Web Vitals, creating E-A-T rich content (Expertise, Authoritativeness, Trustworthiness), and using natural language content that aligns with user search intent. You’ll also learn about the importance of link building, optimizing images and videos, and regularly updating content to maintain SEO relevance.",
+    "image": "/blog/seo.jpg"
+  },
+  {
+    "id": 4,
+    "title": "React vs Vue: Which One Should You Choose?",
+    "slug": "react-vs-vue",
+    "category": "Frameworks",
+    "date": "2025-05-10",
+    "excerpt": "A comparison between React and Vue to help you decide which frontend framework fits your project best.",
+    "description": "React and Vue are two of the most popular JavaScript frameworks for frontend development. This post dives deep into how React's component-driven architecture and powerful ecosystem compare with Vue's ease of use, flexibility, and built-in features like directives and transitions. It includes performance testing results, insights from developer communities, adoption trends in startups vs enterprises, and interviews with teams that switched from one to the other. You'll get actionable guidance for choosing the right framework based on your project scope, team experience, and long-term goals.",
+    "image": "/blog/react-vs-vue.jpg"
+  },
+  {
+    "id": 5,
+    "title": "The Success Story of CodeSpark IT",
+    "slug": "codespark-it-success-story",
+    "category": "Company",
+    "date": "2025-05-05",
+    "excerpt": "How CodeSpark IT became a leading tech company through innovation and dedication.",
+    "description": "CodeSpark IT’s story is a journey from humble beginnings to industry leadership. Starting as a three-person startup in a small workspace, the company focused on solving real-world problems using cutting-edge technologies. Through a culture of innovation, client-first mindset, and agile delivery, CodeSpark built a reputation for quality. This post explores key milestones including major product launches, global expansion, and strategic partnerships. It also highlights the company’s commitment to talent development, diversity, and social responsibility.",
+    "image": "/blog/success.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Understanding REST APIs: A Beginner’s Guide",
+    "slug": "understanding-rest-apis",
+    "category": "Development",
+    "date": "2025-04-30",
+    "excerpt": "A simple introduction to REST APIs, how they work, and why they matter in modern web development.",
+    "description": "REST APIs are the backbone of modern web and mobile apps. This guide introduces REST concepts like statelessness, resource naming, and HTTP verbs (GET, POST, PUT, DELETE). You’ll learn how to structure a RESTful endpoint, use status codes, and secure APIs using tokens and authentication headers. The post includes code snippets, examples of CRUD operations, tips for documentation using Swagger, and best practices for versioning and scalability in large systems.",
+    "image": "/blog/rest-api.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Top 10 VS Code Extensions for Developers",
+    "slug": "top-vscode-extensions",
+    "category": "Tools",
+    "date": "2025-04-25",
+    "excerpt": "Boost your productivity with these must-have Visual Studio Code extensions for developers.",
+    "description": "Visual Studio Code is the go-to code editor for modern developers, and its extensibility makes it even more powerful. This blog covers 10 essential extensions, including Prettier for formatting, GitLens for enhanced version control, ESLint for code linting, Live Server for real-time previews, and TabNine for AI-driven autocomplete. Each extension is explained with use cases, configuration tips, and how it can improve your development workflow. Whether you're building frontend apps or managing serverless code, these tools are indispensable.",
+    "image": "/blog/vscode.jpg"
+  },
+  {
+    "id": 8,
+    "title": "How to Build a Responsive Website from Scratch",
+    "slug": "build-responsive-website",
+    "category": "Development",
+    "date": "2025-04-20",
+    "excerpt": "Step-by-step guide to creating a responsive website that looks great on all devices.",
+    "description": "Responsive web design ensures your website looks good and functions well on all screen sizes. This tutorial walks through the basics of fluid grids, flexible images, and CSS media queries. You’ll learn how to use Flexbox and Grid layout systems, implement mobile-first design, and test your layout across devices. The article also includes performance optimization tips and suggestions for tools like Chrome DevTools and Lighthouse for responsive audits.",
+    "image": "/blog/responsive.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Importance of Cybersecurity in 2025",
+    "slug": "importance-of-cybersecurity",
+    "category": "Security",
+    "date": "2025-04-15",
+    "excerpt": "Learn why cybersecurity is more critical than ever and how to protect your digital assets.",
+    "description": "Cybersecurity has become a top priority as cyberattacks grow more sophisticated. This post highlights the latest trends in digital threats such as phishing, ransomware, and insider breaches. It covers essential security layers including firewalls, endpoint protection, multi-factor authentication, and encrypted communication. It also explores the role of AI and automation in threat detection, compliance with regulations like GDPR, and the importance of a company-wide security awareness culture.",
+    "image": "/blog/cybersecurity.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Getting Started with Next.js for Beginners",
+    "slug": "getting-started-with-nextjs",
+    "category": "Development",
+    "date": "2025-04-10",
+    "excerpt": "An introductory tutorial to Next.js and how to build fast React apps with server-side rendering.",
+    "description": "Next.js has rapidly become the framework of choice for React developers who need performance and SEO benefits. This beginner tutorial guides you through setting up a project, using file-based routing, creating dynamic routes, and building static or server-rendered pages. It explains the difference between `getStaticProps`, `getServerSideProps`, and `API routes`, and walks you through deployment using platforms like Vercel. Perfect for developers transitioning from plain React to full-stack applications.",
+    "image": "/blog/nextjs.jpg"
+  }
+]
