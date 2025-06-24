@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 import bannerImage from '../../assets/Banner/banner-01.png';
 
 const HeroSection = () => {
@@ -43,6 +44,9 @@ const HeroSection = () => {
         );
     };
 
+    const iconClass = `bg-white shadow rounded-lg p-2 transition cursor-pointer hover:shadow-lg
+      hover:bg-gradient-to-r hover:from-[#7567C7] hover:to-[#EA6478] hover:text-white`;
+
     return (
         <section className="bg-[#f4f8fc] py-12 px-4 md:px-8">
             <div className="max-w-6xl mx-auto flex flex-col-reverse lg:flex-row items-center gap-10 lg:gap-16">
@@ -63,10 +67,14 @@ const HeroSection = () => {
                         I use animation as a third dimension to simplify experiences and guide users through every interaction. Not just to make things pretty — but purposeful.
                     </p>
 
-                    {/* Get Started Button */}
-                    <div className="mb-8">
+                    {/* Buttons */}
+                    <div className="mb-8 flex justify-center lg:justify-start gap-4">
                         <button className="bg-[#FF014F] hover:bg-[#e10045] text-white px-6 py-3 rounded-md font-semibold transition">
                             Get Started
+                        </button>
+
+                        <button className="bg-white border border-[#FF014F] text-[#FF014F] hover:bg-[#FF014F] hover:text-white px-6 py-3 rounded-md font-semibold transition">
+                            Learn More
                         </button>
                     </div>
 
@@ -75,15 +83,15 @@ const HeroSection = () => {
                         {/* Social */}
                         <div>
                             <p className="uppercase text-sm font-semibold text-gray-700 mb-2">Find with me</p>
-                            <div className="flex justify-center sm:justify-start space-x-3">
-                                <a href="#" className="w-10 h-10 flex items-center justify-center bg-white rounded-lg shadow hover:scale-105 transition">
-                                    <i className="fab fa-facebook-f text-gray-600 text-lg"></i>
+                            <div className="flex justify-center sm:justify-start space-x-3 text-gray-800">
+                                <a href="#" className={iconClass} title="Facebook">
+                                    <FaFacebookF className="text-lg" />
                                 </a>
-                                <a href="#" className="w-10 h-10 flex items-center justify-center bg-white rounded-lg shadow hover:scale-105 transition">
-                                    <i className="fab fa-twitter text-gray-600 text-lg"></i>
+                                <a href="#" className={iconClass} title="Twitter">
+                                    <FaTwitter className="text-lg" />
                                 </a>
-                                <a href="#" className="w-10 h-10 flex items-center justify-center bg-white rounded-lg shadow hover:scale-105 transition">
-                                    <i className="fab fa-linkedin-in text-gray-600 text-lg"></i>
+                                <a href="#" className={iconClass} title="LinkedIn">
+                                    <FaLinkedinIn className="text-lg" />
                                 </a>
                             </div>
                         </div>
