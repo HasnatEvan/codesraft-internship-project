@@ -49,7 +49,7 @@ const Navbar = () => {
             </NavLink>
 
             {/* Get Started Button */}
-            <NavLink to="/get-started" onClick={closeMenu}>
+            <NavLink to="/" onClick={closeMenu}>
               <button
                 className="flex items-center gap-2 px-6 py-2 rounded-sm text-sm font-semibold bg-[#E7ECEF] shadow-md
                 text-[#FF014F] transition-all duration-300
@@ -88,7 +88,7 @@ const Navbar = () => {
               <FaEnvelope className="text-lg" /> Contact Us
             </NavLink>
 
-            <NavLink to="/get-started" onClick={closeMenu}>
+            <NavLink to="/" onClick={closeMenu}>
               <button
                 className="w-full flex items-center justify-center gap-2 px-6 py-2 rounded-sm text-sm font-semibold
                 bg-[#E7ECEF] shadow-md text-[#FF014F] transition-all duration-300

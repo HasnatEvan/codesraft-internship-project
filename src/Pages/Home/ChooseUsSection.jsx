@@ -11,19 +11,19 @@ const stats = [
 const features = [
   {
     id: 1,
-    icon: <FaRocket className="text-pink-500 w-10 h-10" />,
+    icon: <FaRocket className="text-[#FF014F] w-10 h-10" />,
     title: "Fast & Reliable",
     desc: "We deliver quality work on time to keep your business moving forward.",
   },
   {
     id: 2,
-    icon: <FaShieldAlt className="text-pink-500 w-10 h-10" />,
+    icon: <FaShieldAlt className="text-[#FF014F] w-10 h-10" />,
     title: "Secure Solutions",
     desc: "Your data and privacy are our top priority with robust security measures.",
   },
   {
     id: 3,
-    icon: <FaThumbsUp className="text-pink-500 w-10 h-10" />,
+    icon: <FaThumbsUp className="text-[#FF014F] w-10 h-10" />,
     title: "Customer Satisfaction",
     desc: "Our clients love us! We strive to exceed expectations every time.",
   },
@@ -64,7 +64,7 @@ const ChooseUsSection = () => {
       className="bg-[#f4f8fc] py-20 px-4 sm:px-6 lg:px-12"
     >
   <div className="max-w-7xl mx-auto text-center mb-10">
-  <h2 className="text-pink-600 text-sm font-semibold uppercase tracking-wide mb-6 border-b-2 border-pink-500 inline-block pb-1">
+  <h2 className="text-[#FF014F] text-sm font-semibold uppercase tracking-wide mb-6 border-b-2 border-[#FF014F] inline-block pb-1">
     Why Choose Us
   </h2>
   <h1 className="text-4xl font-bold text-gray-800 mb-4">Our Key Strengths</h1>
@@ -78,7 +78,7 @@ const ChooseUsSection = () => {
       <div className="max-w-6xl mx-auto flex justify-center gap-12 mb-16">
         {stats.map(({ id, title, value, suffix }) => (
           <div key={id} className="text-center">
-            <div className="text-5xl font-extrabold text-pink-500">
+            <div className="text-5xl font-extrabold text-[#FF014F]">
               {startCount ? <CountUp end={value} duration={2} /> : 0}
               {suffix}
             </div>

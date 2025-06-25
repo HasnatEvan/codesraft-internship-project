@@ -30,8 +30,9 @@ const BlogDetails = () => {
         <img
           src={blog.image}
           alt={blog.title}
-          className="w-full h-56 sm:h-72 md:h-80 object-cover rounded-md mb-6"
+          className="w-full max-h-[600px] object-contain rounded-md mb-6"
         />
+
 
         {/* Category & Date */}
         <div className="flex flex-wrap justify-between items-center text-sm text-gray-500 mb-2">

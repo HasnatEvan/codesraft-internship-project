@@ -40,12 +40,15 @@ const ContactForm = () => {
         whileInView="visible"
         viewport={{ once: true, amount: 0.3 }}
       >
-        <motion.h2
-          variants={fadeInUp}
-          className="text-center text-sm font-medium text-pink-600 uppercase mb-2"
-        >
-          Contact
-        </motion.h2>
+        <div className="flex justify-center">
+          <motion.h2
+            variants={fadeInUp}
+            className="text-sm font-medium text-pink-600 uppercase mb-4 inline-block border-b-2 border-pink-600 pb-1"
+          >
+            Contact
+          </motion.h2>
+        </div>
+
 
         <motion.h1
           variants={fadeInUp}

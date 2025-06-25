@@ -11,7 +11,7 @@ const OurStudioSection = () => {
 
         {/* Text Section */}
         <div className="text-center lg:text-left space-y-6">
-          <h2 className="text-pink-600 text-sm font-semibold uppercase tracking-wider mb-4 border-b-2 border-pink-500 inline-block pb-1">
+          <h2 className="text-[#FF014F] text-sm font-semibold uppercase tracking-wider mb-4 border-b-2 border-pink-500 inline-block pb-1">
             Inside Our Studio
           </h2>
 
@@ -33,7 +33,7 @@ const OurStudioSection = () => {
               'Celebrating creativity in every form',
             ].map((point, index) => (
               <div key={index} className="flex items-start gap-3 text-gray-700">
-                <FaCheckCircle className="text-pink-500 mt-1" />
+                <FaCheckCircle className="text-[#FF014F] mt-1" />
                 <span>{point}</span>
               </div>
             ))}

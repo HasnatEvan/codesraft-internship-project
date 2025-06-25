@@ -15,13 +15,18 @@ const Blog = () => {
   return (
     <div className="bg-[#f4f8fc] min-h-screen">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-        
+
         {/* Section Heading */}
+
         <div className="text-center mb-10">
           <h1 className="text-3xl sm:text-4xl font-bold text-[#FF014F] inline-block border-b-2 border-[#FF014F] pb-2">
             Latest Blog Posts
           </h1>
+          <p className="mt-4 text-gray-600 max-w-2xl mx-auto text-sm sm:text-base">
+            Stay updated with our latest articles, tips, and insights on web development, design trends, and digital innovations. Explore our expert-written posts to enhance your knowledge and skills.
+          </p>
         </div>
+
 
         {/* Blog Grid */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">

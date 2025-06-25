@@ -63,8 +63,8 @@ const FeaturesSection = () => {
                     className="border-t pt-4 cursor-pointer"
                     onClick={() => toggleFeature(i)}
                   >
-                    <div className="flex justify-between items-center text-gray-700 hover:text-pink-600 transition">
-                      <p className={`font-medium ${isActive ? 'text-pink-600 font-semibold' : ''}`}>
+                    <div className="flex justify-between items-center text-gray-700 hover:text-[#FF014F] transition">
+                      <p className={`font-medium ${isActive ? 'text-[#FF014F] font-semibold' : ''}`}>
                         {item.title}
                       </p>
                       {isActive ? (

@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import bannerImage from '../../assets/Banner/banner-01.png'; // Replace with your company image if needed
+import bannerImage from '../../assets/Banner/banner-01.png'; 
+import Marquee from "react-fast-marquee";
+import SliderSection from "./SliderSection";
+
 
 const HeroSection = () => {
     const staticText = "Hi, ";
@@ -96,19 +99,22 @@ const HeroSection = () => {
                             </div>
                         </div>
 
-                        {/* Skills */}
+                      
+                        {/* Services Logos Only */}
                         <div>
-                            <p className="uppercase text-sm font-semibold text-gray-700 mb-2 text-center">We work with</p>
+                            <p className="uppercase text-sm font-semibold text-gray-700 mb-2 text-center ">
+                                We Work With
+                            </p>
                             <div className="flex flex-wrap justify-center sm:justify-start gap-3">
-                                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="React" className="w-10 h-10 bg-white p-1 rounded-lg shadow" />
-                                <img src="https://cdn-icons-png.flaticon.com/512/919/919836.png" alt="MongoDB" className="w-10 h-10 bg-white p-1 rounded-lg shadow" />
-                                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968381.png" alt="TypeScript" className="w-10 h-10 bg-white p-1 rounded-lg shadow" />
-                                <img src="https://cdn-icons-png.flaticon.com/512/1126/1126012.png" alt="Next.js" className="w-10 h-10 bg-white p-1 rounded-lg shadow" />
-                                <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="Tailwind CSS" className="w-10 h-10 bg-white p-1 rounded-lg shadow" />
-                                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968945.png" alt="Firebase" className="w-10 h-10 bg-white p-1 rounded-lg shadow" />
-                                <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" className="w-10 h-10 bg-white p-1 rounded-lg shadow" />
+                                <img src="https://img.icons8.com/fluency/48/code.png" alt="Web Dev" className="w-12 h-12 bg-white p-2 rounded-lg shadow" />
+                                <img src="https://img.icons8.com/fluency/48/android-os.png" alt="Mobile App" className="w-12 h-12 bg-white p-2 rounded-lg shadow" />
+                                <img src="https://img.icons8.com/fluency/48/cloud.png" alt="Cloud" className="w-12 h-12 bg-white p-2 rounded-lg shadow" />
+                                <img src="https://img.icons8.com/fluency/48/design.png" alt="UI/UX" className="w-12 h-12 bg-white p-2 rounded-lg shadow" />
+                                <img src="https://img.icons8.com/fluency/48/search--v1.png" alt="SEO" className="w-12 h-12 bg-white p-2 rounded-lg shadow" />
+                                <img src="https://img.icons8.com/fluency/48/consultation.png" alt="IT" className="w-12 h-12 bg-white p-2 rounded-lg shadow" />
                             </div>
                         </div>
+
                     </div>
                 </div>
 
@@ -121,6 +127,7 @@ const HeroSection = () => {
                     />
                 </div>
             </div>
+            <SliderSection></SliderSection>
         </section>
     );
 };

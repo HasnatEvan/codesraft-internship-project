@@ -40,7 +40,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div className="text-center sm:text-left">
-            <h2 className="text-pink-600 font-semibold text-lg mb-4">QUICK LINKS</h2>
+            <h2 className="text-[#FF014F] font-semibold text-lg mb-4">QUICK LINKS</h2>
             <ul className="space-y-2">
               <li><a href="#about" className="hover:text-pink-600 transition">About</a></li>
               <li><a href="#portfolio" className="hover:text-pink-600 transition">Portfolio</a></li>
@@ -52,7 +52,7 @@ const Footer = () => {
 
           {/* Resources */}
           <div className="text-center sm:text-left">
-            <h2 className="text-pink-600 font-semibold text-lg mb-4">RESOURCES</h2>
+            <h2 className="text-[#FF014F] font-semibold text-lg mb-4">RESOURCES</h2>
             <ul className="space-y-2">
               <li><a href="/career" className="hover:text-pink-600 transition">Career</a></li>
               <li><a href="/privacy-policy" className="hover:text-pink-600 transition">Privacy Policy</a></li>
@@ -64,7 +64,7 @@ const Footer = () => {
 
           {/* Developers */}
           <div className="text-center sm:text-left">
-            <h2 className="text-pink-600 font-semibold text-lg mb-4">DEVELOPERS</h2>
+            <h2 className="text-[#FF014F] font-semibold text-lg mb-4">DEVELOPERS</h2>
             <ul className="space-y-2">
               <li><a href="/docs" className="hover:text-pink-600 transition">Documentation</a></li>
               <li><a href="/api" className="hover:text-pink-600 transition">API Reference</a></li>
